@@ -22,3 +22,19 @@ I have no previous experience in programming.
 * Figma;
 * JS (basics);
 * GIT/GitHub.
+
+## Code example:
+```
+function getPlan(startProduction, numberOfMonths, percent) {
+  let array = [];
+  let current = startProduction;
+  for (let i = 0; i < numberOfMonths; i++) {
+    current = Math.floor(current * (100 + percent) / 100);
+    array.push(current);
+  }
+  return array;
+}
+```
+
+## English level:
+B2
